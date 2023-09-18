@@ -1,0 +1,13 @@
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e' }
+C = {}
+
+Hasil1 = A.symmetric_difference(B)
+Hasil2 = B.symmetric_difference(A)
+Hasil3 = A.symmetric_difference(C)
+Hasil4 = B.symmetric_difference(C)
+
+print("Hasil dari A:", Hasil1)
+print("Hasil dari B:", Hasil2)
+print("Hasil dari C:", Hasil3)
+print("Hasil dari D:", Hasil4)

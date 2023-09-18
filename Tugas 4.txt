@@ -1,0 +1,14 @@
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+nilai_A_gabungan_B = A.union(B)
+nilai_B_gabungan_C = B.union(C)
+nilai_B_gabungan_C_gabungan_D = B.union(C, D)
+nilai_A_gabungan_B_gabungan_C_gabungan_D = A.union(B, C, D)
+
+print("Hasil AUB:", nilai_A_gabungan_B)
+print("Hasil BUC:", nilai_B_gabungan_C)
+print("Hasil BUCUD:", nilai_B_gabungan_C_gabungan_D)
+print("Hsil AUBUCUD:", nilai_A_gabungan_B_gabungan_C_gabungan_D)

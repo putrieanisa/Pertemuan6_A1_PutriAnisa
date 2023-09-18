@@ -1,0 +1,14 @@
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+nilai_A_irisan_D = A.intersection(D)
+nilai_B_irisan_D = B.intersection(D)
+nilai_C_irisan_D = C.intersection(D)
+nilai_A_irisan_irisan_B_irisan_C_irisan_D = A.intersection(B, C, D)
+
+print("Hasil A∩D :", nilai_A_irisan_D)
+print ("Hasil B∩D :", nilai_B_irisan_D)
+print ("Hasil C∩D :", nilai_C_irisan_D)
+print ("Hasil A∩B∩C∩D :", nilai_A_irisan_irisan_B_irisan_C_irisan_D)
